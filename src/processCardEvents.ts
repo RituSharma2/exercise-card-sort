@@ -20,8 +20,8 @@ type CardTransactionMapping = {
  * @returns CardTransactionMapping Valid transactions grouped by cardId
  */
 export const processCardEvents = (cardEvents: CardEvent[]): CardTransactionMapping => {
-
-  // logic
-
+  
+  
+ 
   return {} as CardTransactionMapping
 }
