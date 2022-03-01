@@ -6,11 +6,10 @@ returning an object which maps from cardId -> valid transaction.
 - The input is an array of unprocessed card events. Some events might be duplicated
 or missing. For duplicated events, you may only use one of its occurrences and discard the rest. Missing events invalidate the transaction.
 
-## Installing dependencies
-```npm install```
+# code file
+-function.js
 
-## Running tests (watch mode)
-```npm test```
-
-## Running service (watch mode)
-```npm run dev```
+## steps to run
+-use for loop to iterate on array.
+-while iterating create empty object and put all elements in object
+-then check duplicate key in object
